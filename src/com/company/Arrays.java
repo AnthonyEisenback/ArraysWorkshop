@@ -10,7 +10,7 @@ public class Arrays {
     private Home home = new Home();
 
     /**This simply prints out an introduction about Arrays. We're doing an introductory method so that we don't have to print it every single time
-     * the user returns to be shown array options. */
+     * the user returns to b1e shown array options. */
     public void showArrayIntroduction() {
         System.out.println("The major difference between an Array and a List/ArrayList is mutability. \n" +
                 "Mutability refers to the ability to change. An array has a set of data that never changes, \n" +
@@ -68,6 +68,9 @@ public class Arrays {
         array[0] = "sort - Sorts array according to specifications";
         array[1] = "equals - Performs a boolean check as to its values are equal to another's.";
         array[2] = "length - Returns size of Array.";
+        array[3] = "I am a horse";
+        array [4] = "I am a cow";
+
         System.out.println("Arrays have various methods that can be used alongside Them. Arrays are, of course, less \n" +
                 "flexible than ArrayLists, as they cannot shrink or grow, so their methods are limited. Some examples of Array \n" +
                 "methods include:");
